@@ -4,13 +4,12 @@
 
 
 ## Descrizione
-Questo progetto dimostra l'uso di varie librerie Python per l'analisi dei dati, l'apprendimento automatico, e la creazione di applicazioni web interattive. Utilizza `datasets` per caricare i dati, `pandas` per l'analisi, `transformers` e `torch` per il machine learning, `shap` per l'interpretazione dei modelli, e `streamlit` con `streamlit_shap` per creare un'interfaccia utente web.
+Questo progetto utilizza diverse librerie e un modello pre-addestrato per l'emotion recognition. Sono state anche le Shap Values per una miglior comprensione di come il modello fornisce la sua predizione. Tramite l'utilizzo di plot caratteristici di Shap, possiamo comprendere come il modello seleziona le varie features per la predizione. Il modello utilizza le varie libreria CUDA per l'addestramento del modello, quindi assicurarsi di avere i requisiti adatti a livello hardware/driver
 
 ## Caratteristiche
-- Caricamento e analisi di dataset complessi.
-- Addestramento di modelli di machine learning per la classificazione delle emozioni.
+- Emotion recognition a partire da un testo inserito
 - Visualizzazione delle predizioni e interpretazioni dei modelli.
-- Creazione di un'applicazione web per interagire con il modello.
+- Creazione di un'applicazione web per interagire con il modello
 
 ## Come iniziare
 Per utilizzare questo progetto, seguire i seguenti passi:
@@ -33,9 +32,9 @@ matplotlib
 ```
 
 ## Autori
--de Stasio Giuseppe 
--Langiotti Andrea 
--Sergiacomi Daniele
+- de Stasio Giuseppe 
+- Langiotti Andrea 
+- Sergiacomi Daniele
 
 
 ## Contribuire
