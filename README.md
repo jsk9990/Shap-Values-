@@ -1,7 +1,7 @@
 ![Copertina del README](/copertina.jpg)
 
 
-# Titolo del Progetto
+# Modello di riconoscimento di emozioni dal testo 
 
 ## Descrizione
 Questo progetto dimostra l'uso di varie librerie Python per l'analisi dei dati, l'apprendimento automatico, e la creazione di applicazioni web interattive. Utilizza `datasets` per caricare i dati, `pandas` per l'analisi, `transformers` e `torch` per il machine learning, `shap` per l'interpretazione dei modelli, e `streamlit` con `streamlit_shap` per creare un'interfaccia utente web.
