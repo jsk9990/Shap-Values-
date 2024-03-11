@@ -33,12 +33,12 @@ matplotlib
 ```
 
 ## Autori
-- Il Tuo Nome
+-de Stasio Giuseppe 
+-Langiotti Andrea 
+-Sergiacomi Daniele
 
-## Licenza
-Questo progetto è rilasciato sotto la Licenza XYZ.
 
 ## Contribuire
-Se desideri contribuire a questo progetto, sentiti libero di fare un fork del repository e inviare una pull request.
+Se si desidera contribuire a questo progetto, si prega di fare un fork del repository e inviare una pull request.
 
 
