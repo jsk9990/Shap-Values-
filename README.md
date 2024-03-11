@@ -16,7 +16,7 @@ Questo progetto dimostra l'uso di varie librerie Python per l'analisi dei dati, 
 Per utilizzare questo progetto, seguire i seguenti passi:
 1. Clonare il repository.
 2. Installare le dipendenze utilizzando `pip install -r requirements.txt`.
-3. Avviare l'applicazione Streamlit con `streamlit run your_app.py`.
+3. Avviare l'applicazione Streamlit con `streamlit run emotion_recognition.py`.
 
 ## Dipendenze
 Questo progetto richiede le seguenti librerie, elencate nel file `requirements.txt`:
