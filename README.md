@@ -38,4 +38,4 @@ Questo progetto è rilasciato sotto la Licenza XYZ.
 ## Contribuire
 Se desideri contribuire a questo progetto, sentiti libero di fare un fork del repository e inviare una pull request.
 
-![Copertina del README]()
+![Copertina del README](/copertina.jpg)
