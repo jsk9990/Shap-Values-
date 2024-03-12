@@ -7,6 +7,10 @@ from streamlit_shap import st_shap
 import torch
 import matplotlib.pyplot as plt
 
+# Verifica se CUDA è disponibile
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+print("CUDA disponibile:", torch.cuda.is_available())
+
 dataset = ds.load_dataset("dair-ai/emotion", split = "train")
 
 data = pd.DataFrame({"text": dataset["text"], "emotion": dataset["label"]})
@@ -17,13 +21,13 @@ tokenizer = transformers.AutoTokenizer.from_pretrained(
 
 model = transformers.AutoModelForSequenceClassification.from_pretrained(
     "nateraw/bert-base-uncased-emotion"
-).cuda()
+).to(device)
 
 pred = transformers.pipeline(
     "text-classification",
     model=model,
     tokenizer=tokenizer,
-    device=0,
+    device='cuda' if torch.cuda.is_available() else 'cpu',
     return_all_scores=True,
 )
 
