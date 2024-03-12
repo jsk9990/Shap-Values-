@@ -16,7 +16,7 @@ Per utilizzare questo progetto, seguire i seguenti passi:
 1. Clonare il repository.
 2. Installare le dipendenze utilizzando `pip install -r requirements.txt`.
 3. Avviare l'applicazione Streamlit con `streamlit run emotion_recognition.py`, o in alternativa `python -m streamlit run emotion_recognition.py`.
-3_1. In caso di problemi con keras, digitare da terminale: pip install `tf-keras --user`
+3_1. In caso di problemi con keras, digitare da terminale: `pip install tf-keras --user`
 3_2. in caso di errori con la libreria transformers, disintallare e reinstallare:`pip uninstall transformers' e 'pip install transformers`
 
 ## Dipendenze
