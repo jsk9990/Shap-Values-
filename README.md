@@ -1,6 +1,6 @@
 # Modello di riconoscimento di emozioni dal testo 
 
-![Copertina del README](/copertina.jpg){width=50%}
+![Copertina del README](/copertina.jpg){: width="50%"}
 
 
 ## Descrizione
